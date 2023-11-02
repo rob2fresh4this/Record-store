@@ -1,0 +1,248 @@
+#holder {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+}
+
+#SubHolder {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+}
+
+/* gallay slides */
+
+/*1*/
+
+.mySlides {
+  display:none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+/* gallay slides */
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  font-family: sans-serif;
+  color: black;
+}
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-style: solid;
+  border-color: black;
+}
+
+.img2 {
+  display: block;
+  /*(margin-left: 75%;
+  margin-right: auto;*/
+  width: 20%;
+  border-style: solid;
+  border-color: black;
+  /*position: static;
+  position: absolute; 
+  top: auto; 
+  left: 75%; */
+}
+
+/*.text h2{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  /*max-width: 100%;
+  padding: 10px 10px;
+  width: 100%;
+}*/
+
+.text {
+  text-align: left;
+  font-family: sans-serif;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 35px;
+  /*max-width: 100%;
+  padding: 10px 10px;
+  width: 100%;*/
+}
+
+.text a {
+  color: blue;
+  text-decoration: none;
+}
+
+
+/* nav bar */
+
+#navbar {
+  overflow: hidden;
+  background-color: #000000;
+  width: 100%;
+  height: 55px ;
+  padding: 10px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #ff0000;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #707070;
+  color: white;
+  
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: red;
+}
+
+.content {
+  padding: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-style: solid;
+  border-color: black;
+}
+
+/* nav bar */
+
+.table1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width:  50%;
+  max-height: 501px;
+  min-height: 500px;
+  border: null;
+}
+
+
+
+
+a {
+  color: #ffffff;
+}
+
+/* Media Screens */
+
+@media screen and (max-width: 500px) {
+  .header {
+    width: 100%;
+  }
+  .text {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .header {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .text {
+    font-size: 20px;
+  }
+
+  .img2 {
+    width: 30%;
+  }
+}
+
+
+/* Media Screens */
+
+
+
+
+
+
+
+/*
+  Notes
+
+1.Find sizes for Media Screen and for tag like (img, p, h1,) and dont forget you also have classes too if you want to eidt them in the classes too. i'll explane the media screen down below
+
+  Media queries can be used to check many things, such as:
+
+  1.width and height of the viewport
+  2.width and height of the device
+  3.orientation (is the tablet/phone in landscape or portrait mode?)
+  4.resolution
+  
+  EXAMPLE ---- REMEMBER TO USE THE TAG YOU WANT TO EDIT. THE BOTTOM ONE SHOWS HOW TO USE CLASSES FOR @MEDIA SCREENS TAG
+      @media only screen and (max-width: 600px) {
+ ---> body {
+      background-color: lightblue;
+  }
+}
+      @media only screen and (max-width: 600px) {
+ ---> body.example {
+      background-color: lightblue;
+  }
+}
+2.Rembember to find color for the text and the background, ect. With the <a></a> please find a way to make it the same color as .text class with an example down below and remove the underline 
+
+  a {
+     text-decoration:  ;
+  }
+
+3.There is a new CLASS .text1 please make it the same colors but smallers sizes including for @media screens 
+
+
+*/
