@@ -137,7 +137,9 @@ li a:hover:not(.active) {
 }
 
 
-
+#header1 {
+  color: white;
+}
 
 a {
   color: #ffffff;
