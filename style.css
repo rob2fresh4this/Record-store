@@ -55,15 +55,9 @@ p {
 
 .img2 {
   display: block;
-  /*(margin-left: 75%;
-  margin-right: auto;*/
   width: 20%;
   border-style: solid;
   border-color: black;
-  /*position: static;
-  position: absolute; 
-  top: auto; 
-  left: 75%; */
 }
 
 .text {
