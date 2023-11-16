@@ -23,7 +23,7 @@
   display:none;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 30%;
 }
 
 
@@ -94,6 +94,12 @@ ul {
   width: 100%;
 }
 
+.socialtop {
+  float: right;
+  margin-right: 5%;
+  width: fit-content;
+}
+
 li {
   float: left;
 }
@@ -124,6 +130,7 @@ li a:hover:not(.active) {
   border-style: solid;
   border-color: black;
 }
+
 
 /* nav bar */
 
