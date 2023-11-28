@@ -8,6 +8,7 @@
 
 var myIndex = 0;
 var isPaused = false;
+let killtime
 carousel();
 
 function carousel() {
@@ -23,15 +24,19 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
 
     if (!isPaused) {
-        setTimeout(carousel, 5000); // Change image every 5 seconds
+        killtime = setTimeout(carousel, 5000); // Change image every 5 seconds
+        console.log("next pic")
     }
 }
 
 function pauseCarousel() {
     isPaused = true;
+    clearTimeout(killtime)
+    console.log("stop")
 }
 
 function resumeCarousel() {
     isPaused = false;
-    carousel(); // Start the carousel again when mouse leaves
+    carousel();
+    console.log("resume")
 }

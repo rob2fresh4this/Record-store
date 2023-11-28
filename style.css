@@ -23,7 +23,7 @@
   display:none;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 40%;
 }
 
 
@@ -131,7 +131,8 @@ li a:hover:not(.active) {
 .table1 {
   margin-left: auto;
   margin-right: auto;
-  max-width:  50%;
+  align-items: center;
+  max-width:  40%;
   max-height: 501px;
   min-height: 500px;
   border: null;
@@ -144,6 +145,11 @@ li a:hover:not(.active) {
 
 a {
   color: #ffffff;
+}
+
+.deals {
+  text-align: center;
+  
 }
 
 /* Media Screens */
