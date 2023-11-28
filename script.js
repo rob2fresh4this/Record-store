@@ -26,18 +26,18 @@ function carousel() {
 
     if (!isPaused) {
         killtime = setTimeout(carousel, 5000); // Change image every 5 seconds
-        console.log("next pic")
+        // console.log("next pic")
     }
 }
 
 function pauseCarousel() {
     isPaused = true;
     clearTimeout(killtime)
-    console.log("stop")
+    // console.log("stop")
 }
 
 function resumeCarousel() {
     isPaused = false;
-    carousel();
-    console.log("resume")
+    killtime = setTimeout(carousel, 5000);
+    // console.log("resume")
 }
