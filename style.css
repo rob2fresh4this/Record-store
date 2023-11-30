@@ -157,7 +157,7 @@ a {
  .outside {
   width: 20%;
 }
-/*
+
 #inside {
   display: flex;
   flex-direction: row;
@@ -166,12 +166,12 @@ a {
   align-items: center;
   align-content: stretch;
 }
-*/ 
+
 #inside img {
   width: 20%;
-  height: 20%;
+  height: 40%;
 }
-/*
+
 #elements {
   display: flex;
 }
@@ -182,18 +182,21 @@ a {
 
 #elementsSub {
   display: flex;
-} */
+} 
 
 .tDeals {
   width: 100%;
+  border: solid 3px black;
 }
 
 .trDeals {
   width: 100%;
+  border: solid 3px black;
 }
 
 .thDeals {
   width: 20%;
+  border: solid 3px black;
 }
 
 
