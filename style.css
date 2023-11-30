@@ -147,10 +147,59 @@ a {
   color: #ffffff;
 }
 
+/*  Deals CSS  */
+
 .deals {
   text-align: center;
   
 }
+
+ .outside {
+  width: 20%;
+}
+/*
+#inside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+}
+*/ 
+#inside img {
+  width: 20%;
+  height: 20%;
+}
+/*
+#elements {
+  display: flex;
+}
+
+#elementsMain {
+  display: flex;
+}
+
+#elementsSub {
+  display: flex;
+} */
+
+.tDeals {
+  width: 100%;
+}
+
+.trDeals {
+  width: 100%;
+}
+
+.thDeals {
+  width: 20%;
+}
+
+
+
+/*  Deals Html  */
+
 
 /* Media Screens */
 
