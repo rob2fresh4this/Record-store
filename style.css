@@ -172,24 +172,36 @@ a {
 }
 
 .tDeals {
-  width: 100%;
-  
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px black;
 }
 
 .trDeals {
   width: 100%;
-  
+  height: 250px;
+  border: solid 1px black;
 }
 
 .thImg {
-  width: 20%;
+  width: 25%;
   transition: transform .2s;
+  border: solid 1px black;
+}
+
+.tdDeals {
+  border: solid 1px black;
 }
 
 .thImg1:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
   transform: scale(1.5);
+}
+
+td {
+  text-align: center;
 }
 
 /*  Deals Html  */
@@ -204,6 +216,7 @@ a {
 }
 
 .tooltip .tooltiptext {
+  overflow: hidden;
   visibility: hidden;
   width: 120px;
   background-color: black;
