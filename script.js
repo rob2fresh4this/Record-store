@@ -25,7 +25,7 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
 
     if (!isPaused) {
-        killtime = setTimeout(carousel, 5000); // Change image every 5 seconds
+        killtime = setTimeout(carousel, 3000); // Change image every 5 seconds
         console.log("next pic")
     }
 }
@@ -38,7 +38,7 @@ function pauseCarousel() {
 
 function resumeCarousel() {
     isPaused = false;
-    killtime = setTimeout(carousel, 5000);
+    killtime = setTimeout(carousel, 2000);
     console.log("resume")
 }
 
