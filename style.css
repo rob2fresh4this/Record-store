@@ -126,7 +126,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 21px 33px;
   text-decoration: none;
 }
 
@@ -148,6 +148,12 @@ li a:hover:not(.active) {
   border-style: solid;
   border-color: black;
 }
+
+.socialtop{
+  width: null;
+  padding: null;
+}
+
 
 
 /* nav bar */
@@ -261,8 +267,10 @@ td {
 }
 
 .FindUsIFrame {
-  width: 500px;
+  width: 50%;
   height: 500px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /* Find Us */
