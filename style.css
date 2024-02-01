@@ -83,6 +83,12 @@ p {
   margin-right: 12%;
 }
 
+#container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 .text {
   text-align: left;
   font-family: sans-serif;
@@ -150,8 +156,7 @@ li a:hover:not(.active) {
 }
 
 .socialtop{
-  width: null;
-  padding: null;
+  font-size: 120%;
 }
 
 
